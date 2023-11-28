@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROFILE.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .navbar .navbar-nav .nav-link {
+            color: rgb(25, 25, 25);
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: rgb(0, 0, 0);
+        }
+        .navbar-brand {
+            color: rgb(0, 0, 0);
+            font-size: 35px;
+        }
+        .text {
+            text-align: center;
+            color: white;
+            .text {
+          font-family: "Times New Roman", serif;
+        }
+        }
+        .container {
+            padding-bottom: 50px;
+            color: rgb(0, 0, 0);
+            margin: 50px;
+        }
+        body {
+            background-image: url(drew-beamer-kUHfMW8awpE-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .navbar {
+            color: rgb(0, 0, 0);
+            font-family: "Times New Roman", serif;
+        }
+        h2 {
+            text-align: center;
+            font-family: "Times New Roman", serif;
+        }
+        div.follow {
+            display: flex;
+            padding: 30px;
+            justify-content:center;
+            gap: 30px;
+        }
+        .text {
+          font-family: "Times New Roman", serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MY PROFILE.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MY PROFILE</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-light">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="personal_profile.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
+        <div class="container">
+        <h2>CONTACT US</h2>
+        <br>
+    <table align="center" style="padding-top: 5px;border-radius: 10px;">
+        <tr>
+            <td>
+              <div class="text" align="center" style="background-image: url(https://media.istockphoto.com/id/1404795960/photo/customer-service-and-satisfaction-concept-businessman-are-touching-the-virtual-screen-on-the.jpg?s=612x612&w=0&k=20&c=TAqWfRaDlx32be9agt7RufcMlYNCJvQKKjxHQruEZMQ=);height: 450px;width: 300px;">
+              <h2 style="font-size: 22px;color: rgb(255, 255, 255);text-align: center; padding: 30px;">Welcome to Contact Information</h2> 
+              </div>
+            </td>
+            <td>
+                <div style="background-color: white; height: 450px; width: 300px;">
+                  <div class="text" align="center" style="padding: 30px;">
+                    <br>
+                    <i class="fa fa-address-card" aria-hidden="true" style="font-size: 18px; color: black;"></i>
+                    <p style="font-size: 16px; color: black;">
+                        <strong>123 Main Street</strong><br>
+                        <strong>Suite 456</strong><br>
+                        <strong>Cityville, State 12345</strong><br>
+                        <strong>United States</strong>
+                    </p>
+                    <br>   
+                    <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 18px; color: black; display: inline-block;"></i>
+                    <p style="font-size: 14px; color: black; display: inline-block;">
+                        https://www.google.com/maps/place/US
+                    </p>
+                    <br>
+                    <i class="fa fa-phone-square" aria-hidden="true" style="font-size: 18px; color: black; display: inline-block;"></i>
+                    <strong style="font-size: 20px; color: black; display: inline-block;">+91 7306244170</strong>
+                    <br>
+                    <br>
+                    <i class="fa fa-envelope" aria-hidden="true" style="font-size: 18px; color: black; display: inline-block;"></i>
+                    <p style="font-size: 15px; color: black; display: inline-block;">ankuxshh72@gmail.com</p>                    
+                    <div class="follow">
+                        <i class="fa fa-facebook-square" aria-hidden="true" style="font-size: 30px; color: blue;"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px; color: blue;"></i>
+                        <i class="fa fa-instagram" aria-hidden="true" style="font-size: 30px; color: rgb(194, 19, 86);"></i>
+                    </div>
+                  </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </div>
+<footer class="footer mt-auto py-2 bg-dark" style="opacity: 0.5; line-height: 75px;">
+    <div class="text">
+        <p3>@Copyright.PORTFOLIO</p3>
+    </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
